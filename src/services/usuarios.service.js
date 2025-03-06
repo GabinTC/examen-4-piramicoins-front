@@ -5,9 +5,7 @@ const getUser = () => {
   return user ? JSON.parse(user) : null;
 };
 
-const saveUser = async (user) => {
-  console.log(user);
-  
+const saveUser = async (user) => {  
   const url = `${API}registro`;
   try {
     const response = await fetch(url, {
