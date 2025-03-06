@@ -6,7 +6,7 @@ const getUser = () => {
 };
 
 const saveUser = async (user) => {
-  console.log("holaaaa");
+  console.log(user);
   
   const url = `${API}registro`;
   try {
